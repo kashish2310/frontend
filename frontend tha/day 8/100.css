@@ -1,0 +1,20 @@
+.grid-container{
+  display: grid;
+  grid-template-columns:auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto ;
+  background-color:rgba(5, 78, 150, 0.863);
+  margin:500px;
+}
+
+.grid-item {
+  background-color:rgba(5, 78, 150, 0.863);
+  border: 2px  solid rgb(120, 149, 238);
+  padding: 10px;
+}
+
+.grid-item:hover{
+  opacity: 0.4;
+}
+
+.clicked{
+  background-color: rgb(109, 6, 6);
+}

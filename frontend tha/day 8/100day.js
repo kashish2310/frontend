@@ -1,4 +1,4 @@
-var s = document.querySelectorAll('.grid-item , .color');
+var s = document.querySelectorAll('.grid-item');
 s.forEach(div=>
   {
     div.addEventListener("click",function()
