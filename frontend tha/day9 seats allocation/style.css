@@ -1,0 +1,51 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    margin: 300px;
+    box-shadow: 0px 0px 4px whitesmoke;
+  }
+  .grid-item {
+    background-color: #2196F3;
+    border: 5px solid rgba(167, 210, 235, 0.8);
+    padding: 20px;
+    height: 100px;
+  }
+
+  .grid-item:hover{
+      opacity: 0.4;
+      background-color: rgb(95, 3, 39);
+
+  }
+
+  .b{
+    margin-top: 900px;
+    margin-left: 5px;
+    font-size: 20px white;
+    text-align: center;
+    border: 10px solid rgb(95, 3, 39);
+    height: 70px;
+    background: palevioletred;
+    color: white;
+    box-shadow: 0px 0px 4px whitesmoke;
+    width: 150px;
+  }
+
+  .b2{
+    margin-top: 900px;
+    margin-left: 5px;
+    font-size: 20px white;
+    text-align: center;
+    border: 10px solid rgb(95, 3, 39);
+    height: 70px;
+    background: palevioletred;
+    color: white;
+    box-shadow: 0px 0px 4px whitesmoke;
+    width: 150px;
+  }
+
+
+  .clicked{
+      background-color: rgb(182, 20, 68);
+  }
