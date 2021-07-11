@@ -1,0 +1,3 @@
+[submodule "frontend tha/day15/frontend"]
+	path = frontend tha/day15/frontend
+	url = https://github.com/kashish2310/frontend
